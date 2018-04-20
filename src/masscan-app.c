@@ -42,6 +42,8 @@ masscan_app_to_string(enum ApplicationProtocol proto)
     case PROTO_COAP:           return "coap";
     case PROTO_TELNET:         return "telnet";
     case PROTO_RDP:            return "rdp";
+
+    case PROTO_ERROR: return "error";
             
     default:
         sprintf_s(tmp, sizeof(tmp), "(%u)", proto);
