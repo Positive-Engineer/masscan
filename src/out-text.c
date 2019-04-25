@@ -56,7 +56,7 @@ text_out_banner(struct Output *out, FILE *fp, time_t timestamp,
         enum ApplicationProtocol proto, unsigned ttl,
         const unsigned char *px, unsigned length)
 {
-    char banner_buffer[4096];
+    char banner_buffer[MAX_BANNER_LENGTH];
 
 
     UNUSEDPARM(out);
