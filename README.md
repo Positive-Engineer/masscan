@@ -1,4 +1,26 @@
-[![Build Status](https://travis-ci.org/robertdavidgraham/masscan.svg?branch=master)](https://travis-ci.org/robertdavidgraham/masscan.svg)
+# IVRE's fork
+
+This fork is maintained by the IVRE project. **If you are looking for
+the original Masscan, see the
+[official repository](https://github.com/robertdavidgraham/masscan)**.
+
+This fork contains a set of patches mostly useful to gather more data
+for [IVRE](https://ivre.rocks/). **It is often rebased against the
+original's master branch, so ``git pull``s will fail or result in
+useless merges**. Fetch the changes to a new local branch or simply
+download an archive to update it.
+
+Most of the patches in this repository will **not** be useful unless
+you use the results with IVRE.
+
+To get a list of the patches, use ``git log -p``.
+
+This fork is currently based on the following commit:
+```
+commit 8189d513fb9ecd8333a8be7475044d03fb029318
+Author: Robert David Graham <robert_david_graham@yahoo.com>
+Date:   Sun Sep 22 13:53:17 2019 -0400
+```
 
 # MASSCAN: Mass IP port scanner
 
